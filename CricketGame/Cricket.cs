@@ -25,11 +25,13 @@ namespace CricketGame
             PlayerScore = 0;
         }
 
-        public bool IsScoreGreater(Cricket player2)
+        public int IsScoreGreater(Cricket player2)
         {
             if (this.PlayerScore > player2.PlayerScore)
-                return true;
-            return false;
+                return 1;
+            if (this.PlayerScore == player2.PlayerScore)
+                return 0;
+            return -1;
         }
 
     }

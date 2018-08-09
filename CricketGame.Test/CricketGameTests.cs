@@ -35,7 +35,7 @@ namespace CricketGame.Test
             var player2 = new Cricket();
             player1.Score(4);
             player2.Score(3);
-            Assert.IsTrue(player1.IsScoreGreater(player2));
+            Assert.IsTrue(player1.IsScoreGreater(player2)==1);
         }
     }
 }
