@@ -8,4 +8,3 @@ C:\Users\asood\Desktop\CricketGame\CricketGame\bin\Debug\CricketGame.pdb
 C:\Users\asood\Desktop\CricketGame\CricketGame\obj\Debug\CricketGame.csproj.CoreCompileInputs.cache
 C:\Users\asood\Desktop\CricketGame\CricketGame\obj\Debug\CricketGame.dll
 C:\Users\asood\Desktop\CricketGame\CricketGame\obj\Debug\CricketGame.pdb
-C:\Users\asood\Desktop\CricketGame\CricketGame\obj\Debug\CricketGame.csprojAssemblyReference.cache

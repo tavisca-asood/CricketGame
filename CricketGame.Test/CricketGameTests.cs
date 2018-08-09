@@ -37,5 +37,15 @@ namespace CricketGame.Test
             player2.Score(3);
             Assert.IsTrue(player1.IsScoreGreater(player2)==1);
         }
+
+        [TestMethod]
+        public void Game_Tie_TheGameShouldBeATieIfBothScoresAreEqual()
+        {
+            var player1 = new Cricket();
+            var player2 = new Cricket();
+            player1.Score(6);
+            player2.Score(6);
+            Assert.IsTrue(player1.IsScoreGreater(player2) == 0);
+        }
     }
 }
