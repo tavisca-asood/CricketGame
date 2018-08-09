@@ -175,7 +175,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 38
  testRunner.Then("Player1 score should be 10", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 39
- testRunner.Then("Player2 score should be 13", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("Player2 score should be 13", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -215,7 +215,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 54
  testRunner.Then("Player1 score should be 15", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 55
- testRunner.Then("Player2 score should be 11", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("Player2 score should be 11", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

@@ -36,7 +36,7 @@ Scenario: Players should be able to score runs multiple times
 	And Player2 has scored 4 runs
 	When Player2 scores 6 runs
 	Then Player1 score should be 10
-	Then Player2 score should be 13
+	And Player2 score should be 13
 
 Scenario: Players should not be able to score runs after getting out
 	Given Player1 has started a game of cricket
@@ -52,7 +52,7 @@ Scenario: Players should not be able to score runs after getting out
 	And Player2 gets out
 	And Player2 scores 6 runs
 	Then Player1 score should be 15
-	Then Player2 score should be 11
+	And Player2 score should be 11
 
 
 Scenario: Declaring the winner of the game
